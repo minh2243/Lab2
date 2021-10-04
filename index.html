@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Duc Minh Vu Lab 2</title>
+        <link rel="shortcut icon" type="image/jpg" href="shark.jpeg"/>
+    </head>
+    <body>
+        <header>
+            <h1> Duc Minh Vu Lab 2</h1>
+            <nav>
+                <a href="https://ucsd.edu" target="blank"> UCSD Homepage</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Check-ins</h2>
+                <p>This is where <b>everyone's</b> attendence will be <i>recorded</i>.</p>
+                <ul>
+                    <li><strong>Minh</strong></li>
+                    <li><em>Powell</em></li>
+                </ul>
+            </section>
+            <section>
+                <h3>Documentation</h3>
+                <p>We have yet to start working, so there won't be anything too important yet</p>
+                <p>List of things we need to do<br><em>Subject to change</em></p>
+                <ol>
+                    <li>brainstorm</li>
+                    <li>outline</li>
+                    <li>execute</li>
+                    <li>don't forget to eat!</li>
+                </ol>
+                <img src="pandaramen.jpg" alt="Panda eating ramen" width="200" height="250"><br>
+                <p>I hear rain helps you relax, no need to stress out!</p>
+                <audio controls>
+                    <source src="rain.wav" type="audio/wav">
+                    Your browser does not support the audio tag
+                </audio> <br>
+                <details>
+                    <summary>Video of panda eating for fun</summary>
+                    <video width="300" height="300" controls>
+                    <source src="pandaeating.mp4" type="video/mp4">
+                    Your browser does not support the video tag
+                </video>
+                </details>
+            </section>
+            <div></div>
+            <span></span>
+            <hr>
+        </main>
+        <footer>
+            Check in here!
+            <form>
+                First name: <input type="text" name="first_name"/>
+                <input type="Submit" name="Submit" value="Submit"/>
+            </form> <br>
+            What is today's date?
+            <form>
+                <input type="date" id="date" name="today's date"
+                value="2021-10-03"
+                min="2021-01-01" max="2021-12-31" /> <br> <br>
+            Which are you comfortable with?
+            <form>
+                HTML <input type="checkbox" name="HTML" value="on"/>
+                JS <input type="checkbox" name="JS" value="on"/>
+                CSS <input type="checkbox" name="CSS" value="on"/>
+            </form> <br>
+            <form>
+                <fieldset>
+                    <legend>How often will you be attending meetings?</legend>
+                    All <input type="radio" name="attendence" value="All"/>
+                    Most <input type="radio" name="attendence" value="Most"/>
+                    Few <input type="radio" name="attendence" value="Few"/>
+                    None <input type="radio" name="attendence" value="None"/>
+                </fieldset>
+            </form> <br>
+            Who do you like more?
+            <form>
+                <select name="dropdown">
+                    <option value="Minh" selected>Minh</option>
+                    <option value="Powell">Powell</option>
+                </select>
+            </form> <br>
+            <label for="starter choice"> Choose a starter Pokemon:</label>
+            <input list="starter Pokemon" id="starter choice" name="start choice"/>
+            <datalist id="starter Pokemon">
+                <option value="Bulbasaur">
+                <option value="Squirtle">
+                <option value="Charmander">
+            </datalist> <br> <br>
+            <label for="location">Which city are you living in right now?</label>
+            <textarea id="location" name="location"
+            rows="2" cols="30">somewhere in san diego perhaps...? </textarea> <br>
+            <button class="for fun" type="button">
+                Press for Fun
+            </button>
+        </footer>
+    </body>
+</html>
